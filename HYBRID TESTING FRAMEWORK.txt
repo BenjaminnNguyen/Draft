@@ -1,0 +1,22 @@
+Hybrid Testing Framework
+
+Hybrid test framework là s? k?t h?p gi?a hai ho?c nhi?u các lo?i framework trên. Ði?m c?ng l?n ? dây chính là vi?c phát huy các uu di?m c?a các framework mà nó k?t h?p s? d?ng.
+
+
+
+Ví d?: m?t hybrid có s? k?t h?p gi?a common library cùng v?i m?t kho d? li?u test là các d? li?u d?u vào/ra và các action keyword, lúc này m?i b? trong kho d? li?u s? bao g?m tên c?a d?i tu?ng, mô t?, action keyword, UI locator và test data tuong ?ng.
+
+
+Hu?ng ti?p c?n theo data-driven trong tru?ng h?p này rõ ràng s? hi?u qu? và d? dàng qu?n lý hon so v?i hai cách trên. Các test data cho các script du?c truy?n vào t? m?t database bên ngoài, do dó tính s? d?ng l?i c?a script dó cung cao hon. Các database luu tr? d? li?u dó có th? là các file xml, excel, file text, CSV, … Các d? li?u này du?c luu tr? theo m?t quy u?c chung là ‘Key – Value’, các key này s? du?c s? d?ng d? truy c?p và truy?n d? li?u vào các test script tuong ?ng thông qua m?t s? thu vi?n chung.
+
+Hu?ng ti?p c?n theo Keyword driven là m?t d?ng m? r?ng c?a Data driven framework, nó còn du?c g?i v?i m?t tên khác là table-driven. Ð?i v?i hu?ng ti?p c?n này, các test data cung du?c tách kh?i các test script, và thêm vào dó các giá tr? keywork c?a các aciton du?c luu tr? trong file database bên ngoài. Các key word này chính là các hu?ng d?n d? xác d?nh các action nào s? c?n du?c th?c hi?n d? test ?ng d?ng.
+
+
+Uu di?m:
+
+N?u nhu s? cân b?ng gi?a các framework du?c k?t h?p du?c dánh giá và th?c thi c?n th?n thì nó l?i có m?t s? linh ho?t r?t cao d?i v?i vi?c nâng c?p và b?o trì project.
+
+Test data có th? thay d?i d?c l?p v?i các test script, có nghia là khi b?n thay d?i các giá tr? c?a test data thì b?n ch? c?n c?p nh?t ? ph?n d? li?u luu tr? bên ngoài, ch? không ph?i vào trong t?ng script d? ch?nh s?a gì c?
+Nhu?c di?m:
+
+Ð?i v?i hybrid thì các công vi?c ban d?u có th? ph?c t?p hon d?i v?i các hu?ng ti?p c?n là các framework phía trên
